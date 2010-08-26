@@ -1,0 +1,19 @@
+#c-home-m-index .blocks .block h2 {
+    position: relative;
+    overflow: hidden;
+    padding: 0 18px;
+    color: white;
+    background: #1a171b;
+    font: bold 14px/26px Arial; }
+#c-home-m-index .blocks .block h2:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -5px;
+    height: 26px;
+    width: 10px;
+    background: white;
+    transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg); }
+
