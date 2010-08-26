@@ -14,6 +14,11 @@ body { font-family: "Droid Sans"; }
             #title p a:hover { text-decoration: underline; }
 
 /* Content */
+h1 { width: 60%; background-color: #1a171b; color: white; position: relative; margin: 100px auto 0; }
+h1:before { content: ''; background: white; position: absolute; top: -15px; left: -15px; height: 100px; width: 32px;
+            transform: rotate(20deg); -moz-transform: rotate(20deg); -webkit-transform: rotate(20deg); }
+ul { margin: 30px 22%; font-size: 32px; }
+    li { margin-top: 10px; list-style: disc; }
 
 /* Questions */
 #questions .content:before { content: ''; background: #1a171b; position: absolute; top: -250px; left: -250px; height: 1200px; width: 65%; z-index: -1;
