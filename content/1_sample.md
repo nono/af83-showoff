@@ -1,3 +1,6 @@
+!SLIDE section
+# My section #
+
 !SLIDE
 # Example #
     @@@ Ruby

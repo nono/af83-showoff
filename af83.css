@@ -15,7 +15,11 @@ pre:before { content: ''; background: white; position: absolute; top: -36px; lef
              transform: rotate(20deg); -moz-transform: rotate(20deg); -webkit-transform: rotate(20deg); }
 code { font-family: "Droid Sans Mono", monospace; }
 
-/* Title */
+/* Section */
+.section h1 { width: 100%; margin: 100px 0 0; padding: 200px 0 1000px 0; font-size: 128px; }
+.section h1:before { top: -60px; left: -60px; height: 400px; width: 128px; }
+
+/* Begin: the front page */
 #begin .content:before { content: ''; background: #1a171b; position: absolute; top: -200px; left: -250px; height: 1600px; width: 50%; z-index: -1;
                          transform: rotate(20deg); -moz-transform: rotate(20deg); -webkit-transform: rotate(20deg); }
     #begin h1 { text-indent: -9999em; display: block; margin: 100px 0 50px 50%; height: 286px; width: 600px; background-image: url("/file/af83.jpg"); }
@@ -25,7 +29,7 @@ code { font-family: "Droid Sans Mono", monospace; }
         #begin p a { color: white; text-decoration: none; }
         #begin p a:hover { text-decoration: underline; }
 
-/* Questions */
+/* End: questions? */
 #end .content:before { content: ''; background: #1a171b; position: absolute; top: -250px; left: -250px; height: 1600px; width: 65%; z-index: -1;
                          transform: rotate(20deg); -moz-transform: rotate(20deg); -webkit-transform: rotate(20deg); }
     #end h1 { text-indent: -9999em; display: block; margin: 350px 0 50px 60%; height: 286px; width: 600px; background-image: url("/file/af83.jpg"); }
