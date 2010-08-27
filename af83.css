@@ -6,7 +6,7 @@ body { font-family: "Droid Sans", sans; color: #1a171b; line-height: 1.2; }
 a { color: #1a171b; }
 
 /* Content */
-h1 { width: 60%; background-color: #1a171b; color: white; position: relative; margin: 100px auto; padding: 15px 0; line-height: 1; }
+h1 { width: 60%; background-color: #1a171b; color: white; position: relative; margin: 100px auto 70px; padding: 15px 0; line-height: 1; }
 h1:before { content: ''; background: white; position: absolute; top: -13px; left: -17px; height: 120px; width: 40px;
             transform: rotate(20deg); -moz-transform: rotate(20deg); -webkit-transform: rotate(20deg); }
 
@@ -18,10 +18,10 @@ p { margin: 10px 20%; font-size: 32px; }
 ul, ol { margin: 30px 22%; font-size: 32px; }
     ul li { margin-top: 10px; list-style: disc; }
     ol li { margin-top: 10px; list-style: decimal; }
-pre { margin: 32px 20%; background-color: #ebebeb !important; padding: 10px 0 10px 100px; position: relative; }
-pre:before { content: ''; background: white; position: absolute; top: -36px; left: -53px; height: 380px; width: 80px;
+pre { margin: 32px 20%; background-color: #ebebeb !important; padding: 10px 0 10px 100px; position: relative; z-index: -2; }
+pre:before { content: ''; background: white; position: absolute; top: -36px; left: -53px; height: 380px; width: 80px; z-index: -1;
              transform: rotate(20deg); -moz-transform: rotate(20deg); -webkit-transform: rotate(20deg); }
-code { font-family: "Droid Sans Mono", monospace; }
+code { font-family: "Droid Sans Mono", monospace; font-size: 24px; }
 
 /* Section */
 .section h1 { width: 100%; margin: 100px 0 0; padding: 200px 0 1000px 0; font-size: 128px; }
