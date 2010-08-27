@@ -1,8 +1,8 @@
 {
   "name": "Template af83 for showoff",
   "sections": [
-    { "section": "title" },
+    { "section": "begin" },
     { "section": "content" },
-    { "section": "questions" }
+    { "section": "end" }
   ]
 }

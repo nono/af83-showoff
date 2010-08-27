@@ -1,4 +1,4 @@
-!SLIDE #title
+!SLIDE #begin
 # af83 #
 ## Your very long title ##
 ## Bruno Michel ##
