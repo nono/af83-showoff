@@ -1,5 +1,5 @@
 !SLIDE section
-# My section #
+# My first section #
 
 
 !SLIDE
@@ -15,6 +15,10 @@
 * foo
 * bar
 * baz
+
+
+!SLIDE section
+# My second section #
 
 
 !SLIDE
